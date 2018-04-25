@@ -1,22 +1,15 @@
 .headerarea {
-   
 	 background-image: url("http://bestanimations.com/Food/FastFood/burger-fries-fast-food-animated-gif-5.gif");
-	 height: 200px;
+	 height: 310px;
 	 text-align: center;
 	 margin: auto;
    opacity: 0.4;
 
 }
 
-.wrapper {
-  height: 220px;
-}
 
-#buttons-view {
-  float: left;
-  width: 600px;
+#food-buttons{
   text-align: center;
-  align-items: center;
 }
 
 
@@ -36,7 +29,7 @@ button {
 
 #header1, #header2 {
   position: relative;
-  bottom: 150px;
+  bottom: 200px;
   text-align: center;
 }
 
@@ -44,9 +37,12 @@ button {
   float: left;
 }
 
-#food-form {
+#search {
   text-align: center;
-  margin: 20px;
-  float: left;
+  margin-top: -100px;
+  margin-bottom: 15px;
 }
 
+.food-item {
+  text-align: center;
+}
